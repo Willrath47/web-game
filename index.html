@@ -1,121 +1,164 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | proyecto parabolico</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
-  <body>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Wilson Hernández </title>
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script> 
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/bruh.css" rel="stylesheet" />
+        <meta name="theme-color" content="dc3545">
+    </head>
+    <body id="page-top">
+        
+      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" id="sideNavtop">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <!-- wilson hernandez -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                  <li class="nav-item "><a class="nav-link js-scroll-trigger text-white" href="#about">Sobre de mi</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#Proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="cv.html">Curriculum Vitae <svg xmlns="http://www.w3.org/2000/svg" class="change-my-color" width="15px" height="15px" viewBox="0 0 384 512"><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256z"/></svg></a></li>
+
+                    
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black" > 
+            <div class="conteiner px-lg px-lg">
+                <a class="navbar-brand" href="cv.html" >
+                
+                
+                </a>
+               
+                
+  
+            </div>
+             
+         </nav>
+        <div class="container-fluid p-0 text-white">
+          
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0 text-white titulo" >
+                       WILSON
+                        <span class="text-b  wilson">Hernández</span>
+                    </h1>
+                    <div class="subheading mb-5 email">
+                        Guatemala, Guatemala--
+                        <a  href="mailto:wilson.hern4ndez47@gmail.com">E-MAIL
+                        </a>
+                    </div>
+                    <p class="lead mb-5 "></p>
+                    <div class="social-icons ">
+                        <a class="social-icon text-white bg-black" href="https://www.linkedin.com/in/wilson-h-0365a722a/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon text-white bg-black" href="https://wa.me/50248057722"><i class="fab fa-whatsapp  "></i></a>
+                        <a class="social-icon text-white bg-black" href="https://github.com/Willrath47"><i class="fab fa-github "></i></a>
+                        
+                    </div>
+                   
+                  
+                </div>
+            </section>
+            <section>
+                <div class="row" id="Proyectos">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/webgame.png" class="card-img-top " alt="...">
+                        <div class="card-body">
+                             <h4 class="card-title text-black">juego de fisicas</h5>
+                            <h5 class="card-title text-black">juego de fisicas hecho con unity usando scripts en c#</h5>
+                            <h5 class="card-title text-black">c#,unity</h5>
+                          
+                        </div>
+                        <div class="card-body">
+                          <button class="bg-white cardButton"><a href="https://github.com/Willrath47/web-game" class="text-black">Github</a></button>
+                          <button class="bg-white cardButton"><a href="https://willrath47.itch.io/parabola-game" class="text-black">Ir a la Pagina.</a></button>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/calculator.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-black">React calculator</h5>
+                            <h5 class="card-title text-black">App de calculadora creada con React</h5>
+                            <h5 class="card-title text-black">React, HTML, CSS, JS</h5>
+                          
+                          
+                        </div>
+                        <div class="card-body">
+                          <button class="bg-white cardButton"><a href="https://github.com/Willrath47/Calculator" class="text-black">Github</a></button>           
+                          <button class="bg-white cardButton"><a href="https://willrath47.github.io/calculator/" class="text-black">Ir a la Pagina.</a></button>
+                        </div>
+                        
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/react-counter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-black">React click counter</h5>
+                            <h5 class="card-title text-black">contador de clicks creado con React</h5>
+                            <h5 class="card-title text-black">React, HTML, CSS, JS</h5>
+                          
+                        </div>
+                       
+                        <div class="card-body">
+                          <button class="bg-white cardButton"><a href="https://github.com/Willrath47/react-counter" class="text-black">Github</a></button>
+                          <button class="bg-white cardButton"><a href="https://willrath47.github.io/react-counter/" class="text-black">Ir a la Pagina.</a></button>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/todolist.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-black">lista TO-DO</h5>
+                            <h5 class="card-title text-black">lista de tareas, hecho con html, css y js.</h5>
+                            <h5 class="card-title text-black">HTML, CSS, JS</h5>
+                          
+                        </div>
+                       
+                       
+                        <div class="card-body">
+                          <button class="bg-white cardButton"><a href="https://github.com/Willrath47/todo" class="text-black">Github</a>   </button>
+                           <button class="bg-white cardButton"><a href="https://willrath47.github.io/todo/" class="text-black">Ir a la Pagina.</a></button>
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="card " style="width: 18rem;">
+                        <img src="./assets/img/restaurante.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h4 class="card-title text-black">Pagina de restaurante</h5>
+                          <h5 class="card-title text-black">mock up de pagina de restaurante</h5>
+                          <h5 class="card-title text-black">HTML, CSS, JS, Bootstrap</h5>
+
+
+                          
+                        </div>
+                       
+                        <div class="card-body">
+                          <button class="bg-white cardButton"><a href="https://github.com/Willrath47/pagina-restaurante" class="text-black">Github</a></button>
+                          <button class="bg-white cardButton"><a href="https://willrath47.github.io/pagina-restaurante/" class="text-black">Ir a la Pagina.</a></button>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </section>
+            
+           
+            
+
         </div>
-      </div>
-      <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">proyecto parabolico</div>
-      </div>
-    </div>
-    <script>
-      var container = document.querySelector("#unity-container");
-      var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
-      var warningBanner = document.querySelector("#unity-warning");
-
-      // Shows a temporary message banner/ribbon for a few seconds, or
-      // a permanent error message on top of the canvas if type=='error'.
-      // If type=='warning', a yellow highlight color is used.
-      // Modify or remove this function to customize the visually presented
-      // way that non-critical warnings and error messages are presented to the
-      // user.
-      function unityShowBanner(msg, type) {
-        function updateBannerVisibility() {
-          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
-        }
-        var div = document.createElement('div');
-        div.innerHTML = msg;
-        warningBanner.appendChild(div);
-        if (type == 'error') div.style = 'background: red; padding: 10px;';
-        else {
-          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() {
-            warningBanner.removeChild(div);
-            updateBannerVisibility();
-          }, 5000);
-        }
-        updateBannerVisibility();
-      }
-
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/web game v3.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/web game v3.data.gz",
-        frameworkUrl: buildUrl + "/web game v3.framework.js.gz",
-        codeUrl: buildUrl + "/web game v3.wasm.gz",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "willrath",
-        productName: "proyecto parabolico",
-        productVersion: "1.0",
-        showBanner: unityShowBanner,
-      };
-
-      // By default Unity keeps WebGL canvas render target size matched with
-      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-      // Set this to false if you want to decouple this synchronization from
-      // happening inside the engine, and you would instead like to size up
-      // the canvas DOM size and WebGL render target sizes yourself.
-      // config.matchWebGLToCanvasSize = false;
-
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
-        container.className = "unity-mobile";
-
-        // To lower canvas resolution on mobile devices to gain some
-        // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
-
-        canvas.style.width = window.innerWidth + 'px';
-        canvas.style.height = window.innerHeight + 'px';
-
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
-      } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
-      }
-
-      loadingBar.style.display = "block";
-
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
-          loadingBar.style.display = "none";
-          fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
-    </script>
-  </body>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

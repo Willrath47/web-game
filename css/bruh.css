@@ -1,0 +1,116 @@
+body{
+  background-image:url(../assets/img/layered-waves-haikei.svg);
+  /* background-color: rgba(0, 0, 0, 0.788);  */
+  background-blend-mode:darken;
+  background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+
+  
+}
+@media screen and (min-width:771px) {
+  
+}
+@media screen and (max-width:770px) {
+  body {
+    background-image:url(../assets/img/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+ 
+    background-position: center center;
+    background-attachment:fixed;
+    
+
+  }
+  .navbar{
+    z-index: 1000;
+  }
+}
+
+.navbar{
+    position: fixed;
+    
+    width: 100%;
+}
+.card-img-top{
+  border: solid black 0.1vh;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.change-my-color {
+    fill: rgb(255, 255, 255);
+}
+
+
+.cardButton{
+  list-style-type: none;
+  border-radius: 5px;
+  border:none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  color:black;
+
+
+}
+.card{
+  backdrop-filter: blur(10px) saturate(200%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.52);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+a{
+  text-decoration: none;
+}
+
+
+.titulo{
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
+}
+.wilson{
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+.email{
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
+}
+button:hover{
+  box-shadow: 5px 5px 20px  white;
+  transition: 0.1s;
+  border:solid white;
+}
+
+
+.social-icon{
+  border:solid rgb(255, 255, 255); 
+}
+.icono{
+  background-color: aqua;
+  color: rgb(79, 143, 193);
+}
+.social-icon:hover{
+  box-shadow: 5px 5px 20px  white;
+  transition: 0.1s;
+  border:solid rgb(182, 26, 26);
+}
+#navbarcenter{
+  display: flex;
+  justify-content: center;
+}
+
+.collapse{
+  justify-content: center;
+}
+.fixed-top{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
